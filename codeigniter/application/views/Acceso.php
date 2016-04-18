@@ -18,8 +18,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <h1>Bienvenido</h1>
     </div>
     <div class="btn-group type-access">
-        <button type="button" class="btn btn-primary"><a href="<?php echo base_url();?>Login">Profesor</a></button>
-      <button type="button" class="btn btn-primary"><a href="<?php echo base_url();?>LoginAlumno">Alumno</a></button>
+        <button type="button" class="btn btn-primary"><a href="<?php echo base_url();?>accesoPtc">Profesor</a></button>
+      <button type="button" class="btn btn-primary"><a href="<?php echo base_url();?>accesoAlumno">Alumno</a></button>
     </div>
 </div>
 

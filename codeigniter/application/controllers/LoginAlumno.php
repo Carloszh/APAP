@@ -40,7 +40,7 @@ class LoginAlumno  extends CI_Controller{
             if($login){
                 $this->load->view('Acceso');
             }else{
-                $this->load->view('LoginAlumno');
+                redirect('accesoAlumno', 'refresh');
             }
         }
         

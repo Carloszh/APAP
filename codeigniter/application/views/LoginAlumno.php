@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div id="login-ptc">
         
         <?php echo validation_errors();?>
-        <form class="form-inline" role="form" method="POST" action="<?php echo base_url();?>LoginAlumno/loginAlumno">
+        <form class="form-inline" role="form" method="POST" action="<?php echo base_url();?>validaAlumno">
              <div class="form-group">
                <label class="sr-only" >Matricula</label>
                <input type="text" class="form-control" name="clave"

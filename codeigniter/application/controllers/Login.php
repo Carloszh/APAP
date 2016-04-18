@@ -39,7 +39,7 @@ class Login extends CI_Controller  {
             if($login){
                 $this->load->view('Acceso');
             }else{
-                $this->load->view('Login');
+                redirect('accesoPtc', 'refresh');
             }
         }
         
