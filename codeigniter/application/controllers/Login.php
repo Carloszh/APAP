@@ -37,7 +37,7 @@ class Login extends CI_Controller  {
             );
             $login = $this->usuarios_model->loginPtc($data);
             if($login){
-                $this->load->view('Acceso');
+                redirect('HomePtc', 'refresh');
             }else{
                 redirect('accesoPtc', 'refresh');
             }
