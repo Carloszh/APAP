@@ -58,3 +58,11 @@ $route['accesoAlumno'] = 'LoginAlumno';
 
 $route['validaPtc'] = 'Login/loginPtc';
 $route['validaAlumno'] = 'LoginAlumno/loginAlumno';
+
+
+$route['HomePtc'] = 'homePtc';
+$route['InfoPtc'] = 'consultarInfoPTC';
+$route['InfoAlumno'] = 'consultarInfoAlumno';
+$route['AsigMaterias'] = 'asignarMateriasDc';
+$route['EditInfoPtc'] = 'editarDatosDc';
+$route['EditInfoAlumno'] = 'editarDatosAlumno';
